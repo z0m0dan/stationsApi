@@ -1,0 +1,3 @@
+export enum STATION_STATUS {
+  IN_SERVICE = 'IN_SERVICE',
+}
