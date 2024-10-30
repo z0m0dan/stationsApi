@@ -10,11 +10,6 @@
     "sourceMap": true,
     "outDir": "./dist",
     "resolveJsonModule": true,
-    "paths": {
-      "@src/*": ["src/*"],
-      "@/*": ["./*"]
-    },
-    "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,

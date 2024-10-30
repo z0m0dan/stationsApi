@@ -1,8 +1,8 @@
 import type { EntityManager } from '@mikro-orm/core';
 import { Seeder } from '@mikro-orm/seeder';
-import configuration from '@/config.json';
+import configuration from '../../config.json';
 import { parse } from 'papaparse';
-import { Station } from '@src/entities/station.entity';
+import { Station } from './../entities/station.entity';
 
 interface IStation {
   name: string;

@@ -3,7 +3,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { Station } from './../entities/station.entity';
 import { STATION_STATUS } from './../helpers/constants';
 import { StationsQueryDto } from './dto/stations.dto';
-import { StationApiResponse, StationCoordinates } from '@src/utils/types';
+import { StationApiResponse, StationCoordinates } from './../utils/types';
 
 @Injectable()
 export class StationsService {

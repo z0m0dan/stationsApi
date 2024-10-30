@@ -1,7 +1,7 @@
 import { Controller, Get, Query } from '@nestjs/common';
 import { StationsService } from './stations.service';
 import { StationsQueryDto } from './dto/stations.dto';
-import { StationApiResponse } from '@src/utils/types';
+import { StationApiResponse } from './../utils/types';
 import { ApiOkResponse } from '@nestjs/swagger';
 
 @Controller('stations')
